@@ -1,0 +1,3 @@
+[submodule "flask-front"]
+	path = flask-front
+	url = https://github.com/gusre/Flask-react.git
