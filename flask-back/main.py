@@ -13,7 +13,7 @@ server = Flask(__name__)
 
 
 server=Flask(__name__)
-server.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gusree:gunaSREE1@@db4free.net:3306/gusree_12'
+server.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@server/db'
 server.config['SQLALCHEMY_ECHO'] = True
 db= SQLAlchemy(server)
 
